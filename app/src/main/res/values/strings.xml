@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">AppContentServer</string>
+
+    <string name="btn_add">add</string>
+    <string name="btn_clear">clear</string>
+    <string name="btn_del_patient">del</string>
+    <string name="patient">Patient</string>
+    <string name="toast_empty_patient">Empty patient</string>
 </resources>

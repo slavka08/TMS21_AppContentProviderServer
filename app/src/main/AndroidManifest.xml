@@ -18,12 +18,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <provider
-            android:authorities="by.tms.appcontentserver.CustomContentProvider"
-            android:name=".CustomContentProvider"
+            android:authorities="by.tms.appcontentserver.provider.CustomContentProvider"
+            android:name=".provider.CustomContentProvider"
             android:exported="true"
             android:enabled="true"
-
             android:multiprocess="true"/>
     </application>
 
